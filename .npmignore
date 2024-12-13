@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+/.clj-kondo
+/.direnv
+.envrc
+/.lsp
+/node_modules
+flake.lock
+package-lock.json
+resource.cljs
+flake.nix

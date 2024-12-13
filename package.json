@@ -1,0 +1,18 @@
+{
+  "name": "resource-tracker",
+  "version": "0.0.1-alpha1",
+  "description": "A cherry port of tech.resource.",
+  "homepage": "https://github.com/willcohen/resource-tracker",
+  "main": "resource.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Cohen",
+  "license": "EPL-1.0+",
+  "dependencies": {
+    "cherry-cljs": "^0.3.23"
+  },
+  "scripts": {
+    "build": "npx cherry run resource.cljs"
+  }
+}
